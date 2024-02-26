@@ -17,6 +17,7 @@
 
 ### Структура Работы программы
 
+![](https://github.com/DipperMason/go-calcilator/str.png?raw=true)
 cmd/main.go просто запуск сервера
 
 в папке html лежит страницв html 
