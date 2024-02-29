@@ -72,7 +72,7 @@ func handleRequest(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// Парсим шаблон
-	tmpl, err := template.ParseFiles("html/template.html")
+	tmpl, err := template.ParseFiles("../html/template.html")
 	if err != nil {
 		http.Error(w, "Ошибка при загрузке шаблона", http.StatusInternalServerError)
 		return
